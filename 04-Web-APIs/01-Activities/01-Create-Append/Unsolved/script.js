@@ -36,3 +36,11 @@ kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
 
 // TODO: Add ordered list items containing four favorite foods
+
+var dataArr = ["Ross", "Rachel", "Monica"]
+
+for(var i = 0; i < dataArr.length; i++)
+{
+    var optionEl = document.createElement('option')
+    optionEl.textContent = dataArr[i];  
+} 
